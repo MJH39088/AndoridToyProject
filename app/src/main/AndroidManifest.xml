@@ -22,14 +22,52 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
 
+        <!-- Splash -->
         <activity
-            android:name=".view.main.ActMain"
-            android:exported="true">
+            android:name=".view.splash.ActSplash"
+            android:configChanges="screenSize|screenLayout|orientation"
+            android:exported="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleInstance"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <data
+                    android:host="--"
+                    android:scheme="--" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+
+        <!-- Main -->
+        <activity
+            android:name=".view.main.ActMain"
+            android:configChanges="screenSize|screenLayout|orientation"
+            android:exported="true"
+            android:launchMode="singleInstancePerTask"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <data
+                    android:host="--"
+                    android:scheme="--" />
+            </intent-filter>
+
         </activity>
 
     </application>
