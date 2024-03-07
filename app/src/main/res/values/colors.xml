@@ -1,5 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#000000</color>
+    <color name="transparent">@android:color/transparent</color>
+
+    <!-- Ripple -->
+    <color name="defaultRippleColor">#1A000000</color>
+    <color name="defaultRippleColorLight">#4Dffffff</color>
+
+    <!-- White -->
+    <color name="white">#ffffff</color>
+    <color name="white_f2f2f2">#f2f2f2</color>
+    <color name="white_fcfcfe">#fcfcfe</color>
+    <color name="white_eeeef0">#eeeef0</color>
+    <color name="white_e1e1e1">#e1e1e1</color>
+    <color name="white_e2e2e2">#e2e2e2</color>
+    <color name="white_e2e2e4">#e2e2e4</color>
+    <color name="white_e7e7e7">#e7e7e7</color>
+    <color name="white_d7d7d7">#d7d7d7</color>
+    <color name="white_d9d9d9">#d9d9d9</color>
+    <color name="white_c5c5c5">#c5c5c5</color>
+    <color name="white_4cffffff">#4cffffff</color>
+    <color name="white_663f3f3f">#663f3f3f</color>
+    <color name="white_alpha_20">#33FFFFFF</color>
+    <color name="white_alpha_30">#4DFFFFFF</color>
+    <color name="white_alpha_40">#66FFFFFF</color>
+    <color name="white_alpha_50">#80FFFFFF</color>
+    <color name="white_alpha_60">#99FFFFFF</color>
+    <color name="white_alpha_70">#b3FFFFFF</color>
+    <color name="white_alpha_80">#CCFFFFFF</color>
+
+    <!-- Black -->
+    <color name="black">#000000</color>
+    <color name="black_010101">#010101</color>
+    <color name="black_040404">#010101</color>
+    <color name="black_040404_alpha_80">#CC010101</color>
+    <color name="black_111111">#111111</color>
+    <color name="black_171717">#171717</color>
+    <color name="black_191919">#191919</color>
+    <color name="black_1d1d1d">#1d1d1d</color>
+    <color name="black_1e1e1e">#1e1e1e</color>
+    <color name="black_1e1e1e_alpha_5">#0c1e1e1e</color>
+    <color name="black_1e1e1e_alpha_20">#331e1e1e</color>
+    <color name="black_1e1e1e_alpha_40">#661e1e1e</color>
+    <color name="black_1e1e1e_alpha_80">#CC1e1e1e</color>
+    <color name="black_202022">#202022</color>
+    <color name="black_2b2b2b">#2b2b2b</color>
+    <color name="black_232323">#232323</color>
+    <color name="black_2d2d2d">#2d2d2d</color>
+    <color name="black_2f2f2f">#2f2f2f</color>
+    <color name="black_303030">#303030</color>
+    <color name="black_3a3a3a">#3a3a3a</color>
+    <color name="black_3a3a3c">#3a3a3c</color>
+    <color name="black_3e3e3e">#3e3e3e</color>
+    <color name="black_424242">#424242</color>
+    <color name="black_4d4d4d">#4d4d4d</color>
+    <color name="black_a7a7a7">#a7a7a7</color>
+    <color name="black_595959">#595959</color>
+    <color name="black_262629">#262629</color>
+    <color name="black_414145">#414145</color>
+    <color name="black_991e1e1e">#991e1e1e</color>
+    <color name="black_3c3c3d_alpha_90">#E63C3C3D</color>
+    <color name="black_595959_alpha_50">#80595959</color>
+    <color name="black_717171">#717171</color>
+    <color name="black_66b0b0b0">#66b0b0b0</color>
+    <color name="black_606062">#606062</color>
+    <color name="black_aaaaaa">#aaaaaa</color>
+    <color name="black_aaaaaa_alhpa_10">#1aaaaaaa</color>
+    <color name="black_aeaeae">#aeaeae</color>
+    <color name="black_alpha_10">#1a000000</color>
+    <color name="black_alpha_20">#33000000</color>
+    <color name="black_alpha_30">#4D000000</color>
+    <color name="black_alpha_40">#66000000</color>
+    <color name="black_alpha_43">#6e000000</color>
+    <color name="black_alpha_50">#80000000</color>
+    <color name="black_alpha_60">#99000000</color>
+    <color name="black_alpha_70">#b3000000</color>
+    <color name="black_alpha_80">#CC000000</color>
+    <color name="black_d9d9d9_alpha_20">#33d9d9d9</color>
+    <color name="black_595959_alpha_20">#33595959</color>
+    <color name="black_595959_alpha_80">#CC595959</color>
+    <color name="black_484848_alpha_20">#33484848</color>
+    <color name="black_111111_alpha_30">#4D111111</color>
+    <color name="black_1d1d1d_alpha_40">#661d1d1d</color>
+
+    <!-- Color -->
+    <color name="color_ff28c3">#ff28c3</color>
+    <color name="color_8c31ff">#8c31ff</color>
+    <color name="color_ffd80e">#ffd80e</color>
+    <color name="color_148cf5">#148cf5</color>
+    <color name="color_1c6fff">#1c6fff</color>
+    <color name="color_1c6fff_alpha_40">#661c6fff</color>
+    <color name="color_ff0000">#ff0000</color>
+    <color name="color_334f76">#334f76</color>
+    <color name="color_3581ff">#3581ff</color>
+
 </resources>

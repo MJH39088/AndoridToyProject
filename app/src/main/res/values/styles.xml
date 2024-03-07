@@ -1,0 +1,165 @@
+<resources>
+    <!-- ~~~~~~~~~~ -->
+    <!-- 바텀시트 -->
+    <!-- ~~~~~~~~~~ -->
+    <style name="TransparentBottomSheet" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/TransparentBackground</item>
+    </style>
+
+    <style name="TransparentBackground" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <!-- 스피너 -->
+    <style name="spinnerStyle" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <!-- roboto_regular -->
+    <style name="robotoRegular" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="robotoRegular.12">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="robotoRegular.13">
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="robotoRegular.14">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="robotoRegular.15">
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="robotoRegular.16">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="robotoRegular.17">
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="robotoRegular.18">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="robotoRegular.19">
+        <item name="android:textSize">19dp</item>
+    </style>
+
+    <style name="robotoRegular.20">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="robotoRegular.21">
+        <item name="android:textSize">21dp</item>
+    </style>
+
+    <style name="robotoRegular.22">
+        <item name="android:textSize">22dp</item>
+    </style>
+
+    <style name="robotoRegular.23">
+        <item name="android:textSize">23dp</item>
+    </style>
+
+    <style name="robotoRegular.24">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="robotoRegular.30">
+        <item name="android:textSize">30dp</item>
+    </style>
+
+
+    <!-- roboto_bold -->
+    <style name="robotoBold" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="robotoBold.12">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="robotoBold.13">
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="robotoBold.14">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="robotoBold.15">
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="robotoBold.16">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="robotoBold.17">
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="robotoBold.18">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="robotoBold.19">
+        <item name="android:textSize">19dp</item>
+    </style>
+
+    <style name="robotoBold.20">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="robotoBold.21">
+        <item name="android:textSize">21dp</item>
+    </style>
+
+    <style name="robotoBold.22">
+        <item name="android:textSize">22dp</item>
+    </style>
+
+    <style name="robotoBold.23">
+        <item name="android:textSize">23dp</item>
+    </style>
+
+    <style name="robotoBold.24">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="robotoBold.30">
+        <item name="android:textSize">30dp</item>
+    </style>
+
+
+    <!-- Custom Bottom Sheet Style -->
+    <style name="BottomModalDialogTheme" parent="Theme.Material3.DayNight.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomModalDialogStyle</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="BottomModalDialogStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- 디이얼로그 -->
+    <style name="AppTheme.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>
