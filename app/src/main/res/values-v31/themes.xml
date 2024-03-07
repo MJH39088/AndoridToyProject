@@ -10,7 +10,7 @@
         <item name="android:navigationBarColor">@color/white</item>
         <item name="android:statusBarColor">@color/colorPrimaryDark</item>
         <item name="android:windowLightStatusBar">true</item>
-        <item name="android:windowSplashScreenBackground">@color/black_010101</item>
+        <item name="android:windowSplashScreenBackground">@color/white</item>
         <item name="android:windowSplashScreenAnimatedIcon">@android:color/transparent</item>
     </style>
 
